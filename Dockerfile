@@ -17,6 +17,7 @@ RUN set -x \
 		libc-dev \
 		libgcc \
 		make \
+		bash \
 	&& cd /go/src/github.com/genuinetools/amicontained \
 	&& make static \
 	&& mv amicontained /usr/bin/amicontained \
